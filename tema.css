@@ -1,0 +1,485 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  max-inline-size: 1200px;
+  margin-inline: auto;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  background-color: #f1beab;
+}
+
+h1 {
+  font-family: "Oranienbaum", serif;
+  font-size: 4rem;
+  color: #763900;
+  padding-top: 10%;
+  text-align: center;
+}
+
+/*********************** tema ********************/
+.grid_intro p {
+  color: #763900;
+  padding-top: 0%;
+  font-size: 1.1rem;
+  line-height: 26px;
+  text-align: center;
+  padding: 4%;
+  padding-left: 12%;
+  padding-right: 12%;
+  font-family: "Pavanam", serif;
+}
+
+.grid_intro h1 {
+  font-size: 3rem;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.grid_intro h2 {
+  color: #763900;
+  font-family: "Oranienbaum", serif;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 2%;
+}
+.grid_intro h3 {
+  color: #763900;
+  font-family: "Oranienbaum", serif;
+  font-size: 1rem;
+  text-align: center;
+  padding: 2%;
+}
+
+.grid_proces {
+  padding: 6%;
+}
+
+.grid_proces h2 {
+  color: #763900;
+  text-align: right;
+  font-family: "Oranienbaum", serif;
+  font-size: 3.6rem;
+  padding: 4%;
+}
+
+.grid_proces h3 {
+  color: #763900;
+  text-align: right;
+  font-family: "Oranienbaum", serif;
+  font-size: 1.5rem;
+  padding-right: 4%;
+}
+
+.grid_proces p {
+  color: #763900;
+  padding-top: 7%;
+  font-size: 1.1rem;
+  line-height: 26px;
+  text-align: right;
+  font-family: "Pavanam", serif;
+  padding: 4%;
+}
+
+.grid_løsning {
+  padding: 6%;
+}
+
+.grid_løsning h2 {
+  color: #763900;
+  font-family: "Oranienbaum", serif;
+  font-size: 3.6rem;
+  padding: 4%;
+}
+
+.grid_løsning h3 {
+  color: #763900;
+  font-family: "Oranienbaum", serif;
+  font-size: 1.5rem;
+  padding-left: 4%;
+}
+
+.grid_løsning p {
+  color: #763900;
+  padding-top: 7%;
+  font-size: 1.1rem;
+  line-height: 26px;
+  font-family: "Pavanam", serif;
+  padding: 4%;
+}
+
+@media (min-width: 600px) {
+  .grid_proces {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    padding: 7%;
+  }
+
+  .grid_intro h1 {
+    font-size: 4rem;
+  }
+
+  .grid_løsning {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    padding: 7%;
+  }
+}
+
+/*********************** virksomhedssite *****************/
+
+.grid_intro_virksomhedssite {
+  background-color: #763900;
+}
+
+.grid_intro_virksomhedssite p {
+  color: #f1beab;
+  padding-top: 0%;
+  font-size: 1.1rem;
+  line-height: 26px;
+  text-align: center;
+  padding: 4%;
+  padding-left: 12%;
+  padding-right: 12%;
+  font-family: "Pavanam", serif;
+}
+
+.grid_intro_virksomhedssite h1 {
+  color: #f1beab;
+  font-size: 3rem;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.grid_intro_virksomhedssite h2 {
+  color: #f1beab;
+  font-family: "Oranienbaum", serif;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 2%;
+}
+.grid_intro_virksomhedssite h3 {
+  color: #f1beab;
+  font-family: "Oranienbaum", serif;
+  font-size: 1rem;
+  text-align: center;
+  padding: 2%;
+}
+
+.grid_proces_virksomhedssite {
+  background-color: #763900;
+  padding: 6%;
+}
+
+.grid_proces_virksomhedssite h2 {
+  color: #f1beab;
+  text-align: right;
+  font-family: "Oranienbaum", serif;
+  font-size: 3.6rem;
+}
+
+.grid_proces_virksomhedssite h3 {
+  color: #f1beab;
+  text-align: right;
+  font-family: "Oranienbaum", serif;
+  font-size: 1.5rem;
+}
+
+.grid_proces_virksomhedssite p {
+  color: #f1beab;
+  padding-top: 7%;
+  font-size: 1.1rem;
+  line-height: 26px;
+  text-align: right;
+  font-family: "Pavanam", serif;
+  padding-bottom: 7%;
+}
+
+.grid_løsning_virksomhedssite {
+  background-color: #763900;
+  padding: 6%;
+}
+
+.grid_løsning_virksomhedssite h2 {
+  color: #763900;
+  font-family: "Oranienbaum", serif;
+  font-size: 3.6rem;
+}
+
+.grid_løsning_virksomhedssite h3 {
+  color: #f1beab;
+  font-family: "Oranienbaum", serif;
+  font-size: 1.5rem;
+}
+
+.grid_løsning_virksomhedssite p {
+  color: #f1beab;
+  padding-top: 7%;
+  font-size: 1.1rem;
+  line-height: 26px;
+  font-family: "Pavanam", serif;
+  padding-bottom: 7%;
+}
+
+@media (min-width: 600px) {
+  .grid_proces_virksomhedssite {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    padding: 7%;
+  }
+
+  .grid_intro_virksomhedssite h1 {
+    font-size: 4rem;
+  }
+
+  .grid_løsning_virksomhedssite {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    padding: 7%;
+  }
+}
+
+/************************* knap ****************************/
+
+.videre_knap_2 img {
+  padding: 2%;
+  padding-bottom: 45%;
+  padding-top: 4%;
+  width: 380px;
+}
+
+.videre_knap_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.besøg_knap img {
+  padding: 2%;
+  padding-bottom: 10%;
+  padding-top: 4%;
+  width: 400px;
+}
+
+.besøg_knap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+/************************* pil *****************************/
+
+.pil img {
+  width: 120px;
+  padding: 4%;
+  padding-bottom: 25%;
+}
+
+.pil {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+/************************* menu ****************************/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1beab;
+  padding: 10px 20px;
+  font-size: 1.9rem;
+  color: #763900;
+  position: relative;
+}
+
+.navbar_section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo img {
+  width: 90px;
+}
+
+.menu_item {
+  cursor: pointer;
+  position: relative;
+  font-family: "Oranienbaum", serif;
+  color: #763900;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 350%;
+  font-size: 2rem;
+  font-family: "Oranienbaum", serif;
+  background-color: #f1beab;
+  color: #763900;
+  padding: 10px 0;
+  list-style: none;
+  margin: 0;
+}
+
+.submenu li {
+  padding: 13px 20px;
+  color: #f0e7d6;
+}
+
+.submenu li:hover {
+  font-size: 2.5rem;
+  color: #f1beab;
+}
+
+.menu_item:hover .submenu {
+  display: block;
+}
+
+/* Mobile Menu Styling */
+.burger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #763900;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    position: static;
+    transform: none;
+    margin: 10px 0;
+    align-self: center;
+  }
+
+  .navbar_section {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f1beab;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .navbar_section.active {
+    display: flex;
+  }
+
+  .burger {
+    display: flex;
+    align-self: flex-end;
+  }
+
+  .menu_item {
+    text-align: center;
+  }
+
+  .submenu {
+    position: static;
+    box-shadow: none;
+    background-color: #f1beab;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  .submenu li:hover {
+    font-size: 1.3rem;
+  }
+}
+
+/************************* footer ****************************/
+
+.grid_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer {
+  background-color: #763900;
+  color: #f0e7d6;
+  padding: 20px 0;
+}
+
+.kontakt p {
+  font-family: "Oranienbaum", serif;
+  color: #f1beab;
+  font-size: 2rem;
+  text-align: left;
+  padding: 2%;
+}
+
+.social_icons a {
+  margin-left: 20px;
+}
+
+.social_icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 10%;
+}
+
+.social_icons img {
+  width: 60px;
+  height: 60px;
+  color: #f1beab;
+  text-align: center;
+}
+
+.logo_footer {
+  width: 45%;
+  padding: 4%;
+  float: right;
+}
+
+@media (max-width: 768px) {
+  .grid_footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .kontakt p {
+    text-align: center;
+  }
+  .social_icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .logo_footer {
+    width: 90%;
+    padding: 4%;
+  }
+}
