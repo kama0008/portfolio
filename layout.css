@@ -3,21 +3,6 @@
   padding: 0;
 }
 
-.header {
-  max-width: 1600px;
-  margin-inline: auto;
-}
-
-.body {
-  max-width: 1600px;
-  margin-inline: auto;
-}
-
-.main {
-  max-width: 1600px;
-  margin-inline: auto;
-}
-
 img {
   width: 100%;
   display: block;
@@ -45,6 +30,13 @@ img {
   background-color: #763900;
 }
 
+.grid_om_mig_karo {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 60px;
+  padding: 7%;
+}
+
 .grid_om_mig_ø {
   display: grid;
   grid-template-columns: 1fr;
@@ -67,7 +59,7 @@ img {
   padding: 7%;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .grid_forside_vellkommen {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -86,11 +78,7 @@ img {
     gap: 60px;
     padding: 7%;
   }
-  .grid_om_mig_ø {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
-  }
+
   .grid_om_mig_kompetencer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -98,6 +86,21 @@ img {
     padding: 4%;
   }
   .grid_om_mig_cv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    padding: 7%;
+  }
+}
+
+@media (min-width: 600px) {
+  .grid_om_mig_ø {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+  }
+
+  .grid_om_mig_karo {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 60px;

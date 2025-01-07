@@ -3,7 +3,8 @@
   padding: 0;
 }
 
-.body {
+body {
+  background-color: #f1beab;
   max-inline-size: 1200px;
   margin-inline: auto;
   padding: 0;
@@ -12,10 +13,6 @@
 img {
   width: 100%;
   display: block;
-}
-
-body {
-  background-color: #f1beab;
 }
 
 h1 {
@@ -117,7 +114,7 @@ h1 {
   padding: 4%;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .grid_proces {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -212,7 +209,7 @@ h1 {
 }
 
 .grid_løsning_virksomhedssite h2 {
-  color: #763900;
+  color: #f1beab;
   font-family: "Oranienbaum", serif;
   font-size: 3.6rem;
 }
@@ -232,7 +229,7 @@ h1 {
   padding-bottom: 7%;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .grid_proces_virksomhedssite {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -271,6 +268,9 @@ h1 {
   padding-bottom: 10%;
   padding-top: 4%;
   width: 400px;
+  display: grid;
+  display: inline-grid;
+  justify-self: center;
 }
 
 .besøg_knap {
@@ -309,21 +309,24 @@ h1 {
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .logo img {
-  width: 90px;
+  width: 65px;
 }
 
 .menu_item {
   cursor: pointer;
   position: relative;
   font-family: "Oranienbaum", serif;
+  color: #763900;
+}
+
+.menu_item a {
+  text-decoration: none;
   color: #763900;
 }
 

@@ -1,23 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* max-width: 1200px;
-  box-sizing: border-box; */
-}
-
-.header {
-  max-width: 1600px;
-  margin-inline: auto;
-}
-
-.body {
-  max-width: 1600px;
-  margin-inline: auto;
-}
-
-.main {
-  max-width: 1600px;
-  margin-inline: auto;
 }
 
 img {
@@ -47,7 +30,9 @@ h3 {
 
 body {
   background-color: #f0e7d6;
-  max-width: 1400px;
+  max-inline-size: 1200px;
+  margin-inline: auto;
+  padding: 0;
 }
 
 /************************** forside *********************/
@@ -85,7 +70,7 @@ body {
 .grid_forside_multimediedesing li {
   color: #763900;
   padding-top: 2%;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 26px;
   font-family: "Pavanam", serif;
 }
@@ -133,6 +118,28 @@ body {
 }
 
 /************************* om mig **********************/
+
+.grid_om_mig_karo h2 {
+  color: #763900;
+  text-align: right;
+  font-family: "Oranienbaum", serif;
+  font-size: 2.8rem;
+}
+
+.grid_om_mig_karo h3 {
+  color: #763900;
+  font-family: "Oranienbaum", serif;
+  font-size: 1.5rem;
+  padding-bottom: 6%;
+}
+
+.grid_om_mig_karo p {
+  color: #763900;
+  padding-top: 3%;
+  font-size: 1rem;
+  line-height: 26px;
+  font-family: "Pavanam", serif;
+}
 
 .grid_om_mig_ø {
   text-align: right;
@@ -214,6 +221,11 @@ body {
   width: 380px;
 }
 
+.om_mig_knap img {
+  width: 200px;
+  border: 9px solid #763900;
+}
+
 /************************* menu ****************************/
 .navbar {
   display: flex;
@@ -223,6 +235,7 @@ body {
   padding: 10px 20px;
   font-size: 1.9rem;
   color: #763900;
+  text-decoration: none;
   position: relative;
 }
 
@@ -233,21 +246,24 @@ body {
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .logo img {
-  width: 90px;
+  width: 65px;
 }
 
 .menu_item {
   cursor: pointer;
   position: relative;
   font-family: "Oranienbaum", serif;
+  color: #763900;
+}
+
+.menu_item a {
+  text-decoration: none;
   color: #763900;
 }
 
@@ -317,6 +333,7 @@ body {
 
   .navbar_section.active {
     display: flex;
+    z-index: 10;
   }
 
   .burger {
@@ -335,9 +352,11 @@ body {
     font-size: 1rem;
     width: 100%;
     text-align: center;
+    z-index: 10;
   }
   .submenu li:hover {
     font-size: 1.3rem;
+    z-index: 10;
   }
 }
 
